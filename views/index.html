@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+<html>
+
+   <head>
+      <title>fcc - Timestamp Microservice</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+         <h1>Timestamp Microservice</h1>
+        <h3>User Stories</h3>
+        <ol>
+          <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</li>
+          <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+          <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+        </ol>
+        <h4>Example Usage:</h4>
+        <p><a href="https://dc-fcc-timestamp.glitch.me/December%2015,%202015">https://dc-fcc-timestamp.glitch.me/December%2015,%202015</a></p>
+        <p><a href="https://dc-fcc-timestamp.glitch.me/1450137600">https://dc-fcc-timestamp.glitch.me/1450137600</a></p>
+        <h4>Example output:</h4>
+        <p>{ "unix": 1450137600, "natural": "December 15, 2015" }</p>
+      </div>
+   </body>
+
+</html>
